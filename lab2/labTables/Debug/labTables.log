@@ -1,1 +1,3 @@
-﻿  labTables.vcxproj -> C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\Debug\labTables.exe
+﻿  exception_example.cpp
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\Table.h(193,23): warning C4018: '<': signed/unsigned mismatch
+  labTables.vcxproj -> C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\Debug\labTables.exe

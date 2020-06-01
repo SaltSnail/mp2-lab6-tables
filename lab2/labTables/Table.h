@@ -34,7 +34,7 @@ inline bool Record<Key, Data>::operator==(const Key& _key)
 template<class Key, class Data>
 std::ostream& operator<<(std::ostream& os, const Record<Key, Data>& d)
 {
-    os << "Key: " << d.key << " Data: " << d.data << std::endl;
+    os << "key: " << d.key << " data: " << d.data << std::endl;
     return os;
 }
 

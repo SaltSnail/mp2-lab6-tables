@@ -54,10 +54,10 @@ int main()
 
     HashTable<string, int> hashtest(10);
 
-    hashtest.Add("first", 11);
-    hashtest.Add("second", 22);
+    hashtest.Add("firstStudent", 11);
+    hashtest.Add("secondStudent", 22);
 
-    cout << hashtest.Find("first") << endl;
+    cout << hashtest.Find("firstStudent") << endl;
 }
 /* Output:
 Caught bad locale name
