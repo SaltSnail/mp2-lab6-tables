@@ -11,11 +11,12 @@ using namespace std;
 class PositiveNumber
 {
     int positiveNumber;
+
 public:
     PositiveNumber(int num) :positiveNumber(num)
     {
         if (num < 0)
-            throw exception("negative number");
+            throw exception("error");
     }
 };
 int main()
@@ -34,9 +35,7 @@ int main()
     {
         cerr << "Caught " << e.what() << endl;
         cerr << "Type " << typeid(e).name() << endl;
-    };*/
-
-    /*
+    };
     Table<int, int> test1(3);
     test1.Add(0, 3);
     test1.Add(1, 1);
@@ -50,16 +49,15 @@ int main()
     {
         cerr << "\nCaught exeption\n";
     }
-    cout << sortTest1.Find(0) << endl;*/
+    cout << sortTest1.Find(0) << endl;
+    
+    */
 
-    HashTable<string, int> hashtest(10);
-
-    hashtest.Add("firstStudent", 11);
-    hashtest.Add("secondStudent", 22);
-
-    cout << hashtest.Find("firstStudent") << endl;
+    HashTable<int, int> ht(10);
+    ht.Add(1, 11);
+    ht.Add(2, 22);
+    cout << *ht.Find(1);
+    cout << endl << *ht.Find(2);
+    //ht.Delete(1);
+    
 }
-/* Output:
-Caught bad locale name
-Type class std::runtime_error
-*/

@@ -1,3 +1,17 @@
 ﻿  exception_example.cpp
-C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\Table.h(193,23): warning C4018: '<': signed/unsigned mismatch
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\Table.h(197,23): warning C4018: '<': signed/unsigned mismatch
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\Table.h(231,18): warning C4018: '<': signed/unsigned mismatch
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\Table.h(226): message : while compiling class template member function 'Data *HashTable<int,Data>::Find(Key)'
+          with
+          [
+              Data=int,
+              Key=int
+          ]
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\exception_example.cpp(59): message : see reference to function template instantiation 'Data *HashTable<int,Data>::Find(Key)' being compiled
+          with
+          [
+              Data=int,
+              Key=int
+          ]
+C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\labTables\exception_example.cpp(56): message : see reference to class template instantiation 'HashTable<int,int>' being compiled
   labTables.vcxproj -> C:\creativework\GitWorkspace\mp2-lab6-tables\mp2-lab6-tables\lab2\Debug\labTables.exe
